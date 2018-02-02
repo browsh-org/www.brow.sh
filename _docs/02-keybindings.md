@@ -1,6 +1,6 @@
 ---
 title: "Keybindings"
-permalink: /docs/keybindings
+permalink: /docs/keybindings/
 toc: true
 ---
 
@@ -11,7 +11,8 @@ are all the keybindings.
 ## General
 
 `ARROW KEYS` Scrolling    
-`CTRL+l` Focus the URL bar    
+`CTRL+l` Focus the URL bar   
+`CTRL+q` Exit app    
 
 ## Miscellaneous
 

@@ -1,1 +1,5 @@
-{}
+{
+  "projects": {
+    "production": "browsh-193210"
+  }
+}
