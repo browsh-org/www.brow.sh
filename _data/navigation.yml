@@ -1,0 +1,15 @@
+# main links
+main:
+  - title: "Downloads"
+    url: /downloads
+  - title: "Docs"
+    url: /docs/introduction
+
+docs:
+  - title: Getting Started
+    children:
+      - title: "Introduction"
+        url: /docs/introduction/
+      - title: "Keybindings"
+        url: /docs/keybindings
+  
