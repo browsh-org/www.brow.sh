@@ -7,7 +7,7 @@
 
 theme: minimal-mistakes-jekyll
 
-minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-GB"
@@ -99,7 +99,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/browsh-org"
+  github           : "browsh-org"
   gitlab           :
   google_plus      :
   keybase          :

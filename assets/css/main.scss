@@ -6,3 +6,67 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.home-column {
+  float: left;
+  max-width: 30%;
+  margin-bottom: 1em;
+  margin-left: 4%;
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
+#youtube-showcase {
+  float: left;
+  width: 64%;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+
+.youtube-row {
+  margin-top: 2em;
+}
+
+code {
+  background-color: #ccc !important;
+}
+
+.page__footer footer {
+  margin: 0;
+  padding: 0;
+  height: 10px;
+}
+
+#paypal-donate {
+  background-color: #fff;
+}
+
+@media (max-width: 1000px) {
+  .tty-screenshot {
+    max-width: 60%;
+  }
+  .in-browser-screenshot {
+    display: none;
+  }
+  #youtube-showcase {
+    width: 100%;
+  }
+  #open-blurb {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .home-column {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+  }
+  .tty-screenshot {
+    max-width: 100%;
+    margin-left: auto;
+  }
+}

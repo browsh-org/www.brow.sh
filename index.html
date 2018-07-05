@@ -1,0 +1,88 @@
+---
+layout: default
+---
+
+{% assign version = site.data.browsh.latest_version %}
+
+<div id="main" role="main">
+  <div class="page__inner-wrap">
+    <div class="page__content" itemprop="text">
+      <div class="home-row">
+        <div class="home-column">
+          <strong>Browsh is a fully-modern text-based browser.</strong> It renders
+          anything that a modern browser can, so; HTML5, CSS3, JS, video and even WebGL.
+          It can be used from a terminal or from within a normal browser. It's main
+          purpose is to significantly reduce bandwidth and thus both increase browsing
+          speeds and decrease bandwidth costs.
+        </div>
+        <div class="home-column tty-screenshot">
+          <img src="/assets/images/browsh-tty.jpg" />
+        </div>
+        <div class="home-column in-browser-screenshot">
+          <img src="/assets/images/browsh-html.jpg" />
+        </div>
+      </div>
+
+
+      <div style="clear:both"></div>
+
+      <div class="home-row">
+        <div class="home-column">
+          <h2>Download (v{{ version }})</h2>
+          Browsh is available as a small (~3MB) static binary on all major platforms.
+          The only dependency is a recent 57+ version of Firefox.
+          <br />
+          <a href="/downloads">Latest version</a> |
+          <a href="https://github.com/tombh/texttop/releases">Releases archive</a>
+          <br />
+          <small>
+          A Docker image is also
+          available: <code>`docker pull browsh-org/browsh`</code>
+          </small>
+        </div>
+        <div class="home-column">
+          <h2>Live SSH Demo</h2>
+          Just point your SSH client to <em>brow.sh</em>, eg;
+          <code>`ssh brow.sh`</code>. No auth needed. The service
+          is for demonstration only, sessions last 5 minutes and are logged.<br />
+          <small>
+            Note that SSH is actually a very inefficient protocol, for best results install
+            Browsh on your own server along with <a href="https://mosh.org/">Mosh</a>.
+          </small>
+        </div>
+        <div class="home-column">
+          <h2>In-browser Services</h2>
+          <ul>
+            <li>
+              <a href="https://html.brow.sh" target="_blank">html.brow.sh</a> Uses some basic
+              HTML tags like links.
+            </li>
+            <li>
+              <a href="https://text.brow.sh" target="_blank">text.brow.sh</a> Uses nothing but pure text,
+              better for usage with `curl`, for instance.
+            </li>
+          </ul>
+          <small>These services don't yet have the same features as the terminal client.</small>
+        </div>
+      </div>
+
+      <div style="clear:both"></div>
+
+      <div class="home-row youtube-row">
+        <div id="youtube-showcase">
+          <iframe src="https://www.youtube.com/embed/TE_D_fx_ut8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+
+        <div id="open-blurb" class="home-column">
+          <h2>Donate</h2>
+          Browsh is an open source project, currently maintained and funded by
+          <a href="http://tombh.co.uk" target="_blank">one person</a>.
+          If you would like to see Browsh continue to help those with slow and/or
+          expensive Internet, please consider <a href="/donate">donating</a>.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+

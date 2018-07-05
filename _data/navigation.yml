@@ -1,15 +1,30 @@
 # main links
 main:
   - title: "Downloads"
-    url: /downloads
+    url: /downloads/
   - title: "Docs"
-    url: /docs/introduction
+    url: /docs/introduction/
+  - title: "Donate"
+    url: /donate/
+  - title: "Github"
+    url: https://github.com/tombh/texttop
 
 docs:
   - title: Getting Started
     children:
       - title: "Introduction"
         url: /docs/introduction/
+      - title: "Installation"
+        url: /docs/installation/
+
+  - title: TTY client
+    children:
       - title: "Keybindings"
-        url: /docs/keybindings
-  
+        url: /docs/keybindings/
+      - title: "Terminals"
+        url: /docs/terminals/
+
+  - title: In-browser client
+    children:
+      - title: "Usage"
+        url: /docs/in-browser-usage/
