@@ -1,0 +1,26 @@
+[debug] [2018-07-06T06:35:39.994Z] ----------------------------------------------------------------------
+[debug] [2018-07-06T06:35:39.996Z] Command:       /home/tombh/.nvm/versions/node/v8.2.1/bin/node /home/tombh/.nvm/versions/node/v8.2.1/bin/firebase deploy
+[debug] [2018-07-06T06:35:39.996Z] CLI Version:   3.17.4
+[debug] [2018-07-06T06:35:39.996Z] Platform:      linux
+[debug] [2018-07-06T06:35:39.996Z] Node Version:  v8.2.1
+[debug] [2018-07-06T06:35:39.996Z] Time:          Fri Jul 06 2018 14:35:39 GMT+0800 (CST)
+[debug] [2018-07-06T06:35:39.996Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-06T06:35:40.006Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-06T06:35:40.007Z] > authorizing via signed-in user
+[debug] [2018-07-06T06:35:40.009Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/browsh-193210  
+  
+ Fri Jul 06 2018 14:35:40 GMT+0800 (CST)
+[debug] [2018-07-06T06:35:41.352Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-06T06:35:41.353Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/browsh-193210/tokens  
+  
+ Fri Jul 06 2018 14:35:41 GMT+0800 (CST)
+[debug] [2018-07-06T06:35:42.422Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'browsh-193210'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing _site directory for upload...
+[debug] [2018-07-06T06:35:43.705Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/browsh-193210/uploads/-LGiIQFAsoYU-WqGaNjk?fileCount=43&message=  
+  
+ Fri Jul 06 2018 14:35:43 GMT+0800 (CST)

@@ -12,7 +12,7 @@ than the browser client.
 
 ### TTY client
 The terminal client updates and renders in realtime so that, for instance, you
-can watch videos. It uses the UTF8 half-block trick (▄) to get 2 colours
+can watch videos. It uses the UTF-8 half-block trick (▄) to get 2 colours
 from every character cell, thus simulating basic graphics. As well as keyboard input it also understands mouse input, for those terminals that support it. So
 you can click links and even draw lines in sketch apps.
 
@@ -21,7 +21,7 @@ The browser client, somewhat confusingly, renders simple HTML or plain text that
 itself was parsed by Browsh running inside another browser. The point being that the HTML or text that Browsh outputs is extremely lightweight. As of writing in 2018, the
 average website requires downloading around 3MB and making over 100 individual HTTP requests. Browsh will turn this into around 15kb and 2 HTTP requests - 1 for the HTML/text and the other for the favicon.
 
-Currently the HTML/text output is not updated in real time nor interactive, the hope is that the Browser client will eventually have feature parity with the TTY client.
+Currently the HTML/text output is not updated in real time nor interactive, the hope is that the browser client will eventually have feature parity with the TTY client.
 
 ## Installation
 

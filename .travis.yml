@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - '8'
+
+env:
+  global:
+    # FIREBASE_TOKEN
+    secure: "eJLh9iiCpk+EBC54NCgiqugWoVusllm2U0MgESe2RVBmjwzZtlGKwqyHwFEjde1u2Q8MhMrDTCsAFTgvsYSoT3EkCM/uqbqZVqGKxFwreAVAF8wiOeYt0+JaO9KAvgnPtfc4QVbGlfITjEreTrdoVGlYJJWQpeBCdPTe4v4mMloQ3Ivwqzwz5lHRxMHBoXvuGHO7gzyHYDc1i5d6pTfXX6wCnhOuKSH5NiAIDjSo+fmCgpaVZ2EexR6Qxcdz5Rby7HTsfhh3X7XMmtHqfKvD1DMVE24+vHDUfvBzfUhk6DN5Yb7rgDgRXsZHOuvge3dazGbGrGD4D2oJ12ZoKhnLkvC3Evq0rv+gVXC/T02C2+V+HDr6YECPETy5JhO8M4ztSDeKNiU5R5lXwIgxgAYKx4PRtLuqiXhMDvLM2xgCfbD5Y6WdyyOtRIlAuI71lEqlXQ6S7zwI2sktVMy2KMc9qJtPa4uRidkQOAuSQSIWK3n5ZKVao/pJGmz3nTsl1Li1eOlHkdUOnlKXk7zv0wb6aCMmV5ibWt1EA7vQtjlTPSGF2JZO8qGyZHhELfe6sPMDz8KeaboiMA/Y+pHHbuk0aP50PUJV7BzfUt+5HYrP114suCLTEVdgKSrr3P0fQtFEop9C1YS/APDdSNRYoXk9GE27kfGp0cTaK3qxLD/FWMs="
+
+install:
+  - npm install -g firebase-tools
+  - gem install bundler && bundler install
+  - bundle exec jekyll build
+script: firebase deploy --token $FIREBASE_TOKEN
+
