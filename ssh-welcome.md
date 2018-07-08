@@ -18,8 +18,7 @@ In general all the keyboard shortcuts and mouse interactions that you would norm
 
 Also note that there is a monochrome mode if your terminal doesn't support true
 colour, or has other rendering problems: `ALT+M`. See the
-[terminal docs](/docs/terminals/) for tips on setting up your terminal and list of known
-working terminals.
+[terminal docs](/docs/terminals/) for tips on setting up your terminal and list of known working terminals.
 
 Input boxes do work, though it can be a little hard sometimes to exactly where to click in order to get focus. A cursor will appear when you do click correctly.
 
