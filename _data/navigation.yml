@@ -7,7 +7,7 @@ main:
   - title: "Donate"
     url: /donate/
   - title: "Github"
-    url: https://github.com/tombh/texttop
+    url: https://github.com/browsh-org/browsh
 
 docs:
   - title: Getting Started

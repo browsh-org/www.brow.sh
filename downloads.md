@@ -5,7 +5,7 @@ layout: single
 
 {% assign version = site.data.browsh.latest_version %}
 {%
-  assign base = "https://github.com/tombh/texttop/releases/download/v"
+  assign base = "https://github.com/browsh-org/browsh/releases/download/v"
   | append: version
   | append: "/browsh_"
   | append: version
