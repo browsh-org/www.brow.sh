@@ -14,4 +14,4 @@ The HTTP service can be started with: `./browsh_{{ version }}_linux_amd64 -http-
 
 ## Docker
 
-A Docker image is available that bundles an up to date version of Firefox, so that everything you need to run Browsh is self-contained. You can pull and run the TTY client with: `docker run browsh-org/browsh`
+A Docker image is available that bundles an up to date version of Firefox, so that everything you need to run Browsh is self-contained. You can pull and run the TTY client with: `docker run browsh/browsh`
