@@ -18,12 +18,12 @@ In general all the keyboard shortcuts and mouse interactions that you would norm
 
 Also note that there is a monochrome mode if your terminal doesn't support true
 colour, or has other rendering problems: `ALT+M`. See the
-[terminal docs](/docs/terminals/) for tips on setting up your terminal and list of known working terminals.
+[terminal docs](/docs/terminals/) (yes you can just left click that link with your mouse) for tips on setting up your terminal and list of known working terminals.
 
 Input boxes do work, though it can be a little hard sometimes to exactly where to click in order to get focus. A cursor will appear when you do click correctly.
 
 Browsh is still in early Beta and being actively developed so many things don't currently work. Please be patient.
 
-For more detailed information please see the official [introduction](https://www.brow.sh/docs/introduction/) (yes you can just left click that link with your mouse).
+For more detailed information please see the official [introduction](https://www.brow.sh/docs/introduction/).
 
-This session will self-destruct in 5 minutes. Browsh is not ready for public release yet, if you have been given a link to this page then please try not to share it.
+This session will self-destruct in 5 minutes. Or sooner if you exceed CPU and/or memory limits.
