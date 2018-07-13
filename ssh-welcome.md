@@ -9,9 +9,11 @@ Browsh is a modern, realtime, fully-interactive browser in your shell. It is cur
 
 In general all the keyboard shortcuts and mouse interactions that you would normally use on the desktop should work here. Most notably:
 
+  * `CTRL+?`  opens the full documentation
   * `CTRL+l`  focusses the URL bar
   * `CTRL+q`  quits
   * `CTRL+t`  opens a new tab
+  * `CTRL+w`  opens a new tab
   * `CTRL+TAB`  focuses the next tab
   * `ARROW KEYS`  for scrolling
   * `LEFT MOUSE BUTTON`  to follow links and focus input boxes

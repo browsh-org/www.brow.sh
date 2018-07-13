@@ -12,6 +12,7 @@ are all the keybindings.
 
 Note that OSX users need to use the `⌘/Command` key instead of `CTRL`.
 
+`CTRL+?` Opens the documentation    
 `ARROW KEYS`, `PGUP`, `PGDN` Scrolling    
 `CTRL+q` Exit app    
 `CTRL+l` Focus the URL bar   
