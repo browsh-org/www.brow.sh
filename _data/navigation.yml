@@ -18,6 +18,8 @@ docs:
         url: /docs/installation/
       - title: "CLI arguments"
         url: /docs/cli-args/
+      - title: "Adding Extensions"
+        url: /docs/extensions/
 
   - title: TTY client
     children:
