@@ -35,7 +35,7 @@ terminal with [true colour support](https://gist.github.com/XVilka/8346728).
 **It's not fast or saving me bandwidth**    
 Browsh's main usecase is to be run on a remote server, such as a cloud VM, where there is
 fast and cheap bandwidth. You can then access Browsh's output over any normal SSH client
-or better yet [Mosh](https://mosh.org/) (though note that self-compiling Mosh is currently needed to get true colour support). You can also access Browsh's output via a normal browser by running Browsh in HTTP mode: `browsh -http-server`.
+or better yet [Mosh](https://mosh.org/) (though note that self-compiling Mosh is currently needed to get true colour support). You can also access Browsh's output via a normal browser by running Browsh in HTTP mode: `browsh --http-server-mode`.
 
 **It doesn't work on Windows**    
 This is a known bug, it's not been a top priority because of the main usecase described
