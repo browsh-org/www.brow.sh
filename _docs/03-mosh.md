@@ -1,5 +1,5 @@
 ---
-title: "Mosh is better then SSH"
+title: "Mosh is better than SSH"
 permalink: /docs/mosh/
 ---
 
