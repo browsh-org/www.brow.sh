@@ -1,3 +1,7 @@
+.carbonads-docs #carbonads {
+  margin-top: 0;
+}
+
 #carbonads {
   margin-top: 1em;
   display: block;

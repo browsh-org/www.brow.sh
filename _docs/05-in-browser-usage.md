@@ -1,7 +1,7 @@
 ---
 title: "In-browser Usage"
 permalink: /docs/in-browser-usage/
-toc: true
+toc: false
 ---
 
 The in-browser service allows you to use Browsh in a browser, rather than in a client. However currently it doesn't have the same features of the TTY client, for example, there are no realtime updates to page contents and you can't login to sites. Its advantages are firstly that browsers are more common and easily accessible than terminals, and secondly that returned pages don't require further bandwidth to scroll.
