@@ -41,9 +41,11 @@ layout: default
                 {% include toc.html sanitize=true html=content h_min=2 h_max=3 class="toc__menu" %}
              </nav>
             {% endif %}
-            <div class='snd-ad carbonads-docs'>
-              <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CKYIT23L&placement=wwwbrowsh" id="_carbonads_js"></script>
-            </div>
+            {% if page.author_profile or layout.author_profile or page.sidebar %}
+              <div class='snd-ad carbonads-docs'>
+                <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CKYIT23L&placement=wwwbrowsh" id="_carbonads_js"></script>
+              </div>
+            {% endif %}
           </aside>
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
