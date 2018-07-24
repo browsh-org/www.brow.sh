@@ -14,7 +14,7 @@ In general all the keyboard shortcuts and mouse interactions that you would norm
   * `CTRL+q`  quits
   * `CTRL+t`  opens a new tab
   * `CTRL+w`  closes the current tab
-  * `CTRL+TAB`  focuses the next tab
+  * `CTRL+\`  focuses the next tab
   * `ARROW KEYS`  for scrolling
   * `LEFT MOUSE BUTTON`  to follow links and focus input boxes
 

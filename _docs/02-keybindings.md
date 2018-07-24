@@ -20,7 +20,7 @@ Note that OSX users need to use the `⌘/Command` key instead of `CTRL`.
 `CTRL+r` Reload page    
 `CTRL+t` New tab    
 `CTRL+w` Close tab    
-`CTRL+TAB` Cycle to next tab    
+`CTRL+\` Cycle to next tab    
 
 ## Miscellaneous
 
