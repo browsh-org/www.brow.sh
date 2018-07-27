@@ -3,8 +3,8 @@ title: "Configuration"
 permalink: /docs/config/
 ---
 
-The following config will be copied to your filesystem, typically     
-`$HOME/.config/browsh/config.toml` on *'nix* systems. If you can't find it run Browsh
+The following config will be copied to your filesystem, e.g.     
+`${XDG_CONFIG_HOME:-$HOME/.config}/browsh/config.toml` on *'nix* systems. If you can't find it run Browsh
 with `browsh --debug` and look in `./debug.log` for the actual location.
 
 ```toml
