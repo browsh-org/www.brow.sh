@@ -1,8 +1,8 @@
 {
-    "name": "",
-    "short_name": "",
-    "icons": [
-        {
+    "name": "Browsh: text-based browser",
+    "short_name": "Browsh",
+    "description": "A fully interactive, realtime and modern browser rendered to TTY",
+    "icons": [{
             "src": "/android-chrome-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
