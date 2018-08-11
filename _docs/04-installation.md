@@ -18,6 +18,14 @@ rm ./browsh_1.4.12_linux_amd64.deb
 browsh
 ```
 
+## Redhat/Fedora
+```
+curl -o browsh.rpm -L https://github.com/browsh-org/browsh/releases/download/v1.4.12/browsh_1.4.12_linux_amd64.rpm
+rpm -Uvh ./browsh.rpm
+rm ./browsh.rpm
+browsh
+```
+
 Packages such as the `.deb` and `.rpm` versions provide a new `browsh` command.
 So too does the Homebrew command (for OSX users only):    
 `brew tap browsh-org/homebrew-browsh`
