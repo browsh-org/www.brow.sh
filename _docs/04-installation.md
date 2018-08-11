@@ -36,9 +36,9 @@ browsh
 Packages such as the `.deb` and `.rpm` versions provide a new `browsh` command.
 So too does the Homebrew command (for OSX users only).
 
-The static binaries however need to first be made executable; `chmod a+x browsh_{{ version }}_linux_amd64`. You will then be able to run the Browsh TTY client with: `./browsh_{{ version }}_linux_amd64`.
+## Static Binary
 
-Browsh can then be run with something like: `./browsh_{{ version }}_linux_amd64`
+The static binaries need to first be made executable; `chmod a+x browsh_{{ version }}_linux_amd64`. You will then be able to run the Browsh TTY client with: `./browsh_{{ version }}_linux_amd64`.
 
 ## Docker
 
