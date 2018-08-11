@@ -26,9 +26,15 @@ rm ./browsh.rpm
 browsh
 ```
 
+## Mac
+```
+brew tap browsh-org/homebrew-browsh
+brew install browsh
+browsh
+```
+
 Packages such as the `.deb` and `.rpm` versions provide a new `browsh` command.
-So too does the Homebrew command (for OSX users only):    
-`brew tap browsh-org/homebrew-browsh`
+So too does the Homebrew command (for OSX users only).
 
 The static binaries however need to first be made executable; `chmod a+x browsh_{{ version }}_linux_amd64`. You will then be able to run the Browsh TTY client with: `./browsh_{{ version }}_linux_amd64`.
 
