@@ -12,15 +12,15 @@ Note that the following examples all use x64 packages. Please use the proper pac
 
 ## Debian/Ubuntu
 ```
-wget https://github.com/browsh-org/browsh/releases/download/v1.4.12/browsh_1.4.12_linux_amd64.deb
-sudo apt install ./browsh_1.4.12_linux_amd64.deb
-rm ./browsh_1.4.12_linux_amd64.deb
+wget https://github.com/browsh-org/browsh/releases/download/v{{ version }}/browsh_{{ version }}_linux_amd64.deb
+sudo apt install ./browsh_{{ version }}_linux_amd64.deb
+rm ./browsh_{{ version }}_linux_amd64.deb
 browsh
 ```
 
 ## Redhat/Fedora
 ```
-curl -o browsh.rpm -L https://github.com/browsh-org/browsh/releases/download/v1.4.12/browsh_1.4.12_linux_amd64.rpm
+curl -o browsh.rpm -L https://github.com/browsh-org/browsh/releases/download/v{{ version }}/browsh_{{ version }}_linux_amd64.rpm
 rpm -Uvh ./browsh.rpm
 rm ./browsh.rpm
 browsh
