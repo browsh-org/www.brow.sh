@@ -7,7 +7,7 @@ Note that it receives automatic updates upon every new release of browsh-org/bro
 
 Contributions welcome.
 
-###Running Site Locally
+## Running Site Locally
 
 To run the website locally for development, you will need to have Ruby 2.2.5 or higher and RubyGems installed.
 
