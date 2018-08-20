@@ -66,6 +66,10 @@
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
 <meta property="og:url" content="{{ canonical_url }}">
+<meta property="og:image" content="/assets/images/logo-border.png">
+<meta property="og:image:width" content="508">
+<meta property="og:image:height" content="447">
+<meta property="og:image:type" content="image/png">
 
 {% if page.excerpt %}
   <meta property="og:description" content="{{ seo_description }}">
