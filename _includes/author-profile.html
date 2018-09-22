@@ -18,10 +18,10 @@
           {% assign author_link = author.home | absolute_url %}
         {% endif %}
         <a href="{{ author_link }}">
-          <img src="{{ author_src }}" alt="{{ author.name }}" itemprop="image">
+          <img src="{{ author_src }}" alt="{{ author.name }}" itemprop="image" alt="author image">
         </a>
       {% else %}
-        <img src="{{ author_src }}" alt="{{ author.name }}" itemprop="image">
+        <img src="{{ author_src }}" alt="{{ author.name }}" itemprop="image" alt="author image">
       {% endif %}
     </div>
   {% endif %}

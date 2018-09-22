@@ -3,7 +3,7 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <a class="site-title" href="{{ '/' | absolute_url }}">
-          <img src="/assets/images/browsh-header.jpg" />
+          <img src="/assets/images/browsh-header.jpg" alt="browsh logo" />
         </a>
         <ul class="visible-links">
           {% for link in site.data.navigation.main %}
@@ -26,7 +26,7 @@
         {% endif %}
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle Menu" }}</span>
-          <div class="navicon"></div>
+          <span class="navicon"></span>
         </button>
         <ul class="hidden-links hidden"></ul>
       </nav>
