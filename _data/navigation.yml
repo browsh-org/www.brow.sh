@@ -11,6 +11,7 @@ main:
 
 docs:
   - title: Getting Started
+    url: /docs/introduction
     children:
       - title: "Introduction"
         url: /docs/introduction/
@@ -22,6 +23,7 @@ docs:
         url: /docs/extensions/
 
   - title: TTY client
+    url: /docs/keybindings
     children:
       - title: "Keybindings"
         url: /docs/keybindings/
@@ -31,6 +33,7 @@ docs:
         url: /docs/mosh/
 
   - title: In-browser client
+    url: /docs/in-browser-usage
     children:
       - title: "Usage"
         url: /docs/in-browser-usage/
