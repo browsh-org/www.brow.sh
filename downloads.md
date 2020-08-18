@@ -20,8 +20,8 @@ terminal with [true colour support](https://gist.github.com/XVilka/8346728).
 * Debian/Ubuntu: [x64]({{base}}_linux_amd64.deb) / [386]({{base}}_linux_386.deb) / [ARMv6]({{base}}_linux_armv6.deb) / [ARMv7]({{base}}_linux_armv7.deb) / [ARM64]({{base}}_linux_arm64.deb)
 * Redhat/Fedora: [x64]({{base}}_linux_amd64.rpm) / [386]({{base}}_linux_386.rpm) / [ARMv6]({{base}}_linux_armv6.rpm) / [ARMv7]({{base}}_linux_armv7.rpm) / [ARM64]({{base}}_linux_arm64.rpm)
 * Arch AUR: 'browsh-bin'. Eg; `yay -S browsh-bin`
-* FreeBSD: [x64]({{base}}_freebsd_amd64) / [386]({{base}}_freebsd_386) / [ARMv6]({{base}}_freebsd_armv6) / [ARMv7]({{base}}_freebsd_armv7) / [ARM64]({{base}}_freebsd_arm64)
-* OpenBSD: [x64]({{base}}_openbsd_amd64) / [386]({{base}}_openbsd_386) / [ARMv6]({{base}}_openbsd_armv6) / [ARMv7]({{base}}_openbsd_armv7) / [ARM64]({{base}}_openbsd_arm64)
+* FreeBSD: [x64]({{base}}_freebsd_amd64) / [386]({{base}}_freebsd_386) / [ARMv6]({{base}}_freebsd_armv6) / [ARMv7]({{base}}_freebsd_armv7)
+* OpenBSD: [x64]({{base}}_openbsd_amd64) / [386]({{base}}_openbsd_386) / [ARMv6]({{base}}_openbsd_armv6) / [ARMv7]({{base}}_openbsd_armv7)
 * Mac OSX: `brew tap browsh-org/homebrew-browsh` or [tar.gz]({{base}}_darwin_amd64.tar.gz)
 * Windows: [.exe]({{base}}_windows_amd64.exe) (requires Win 10 or newer) (experimental)
 
