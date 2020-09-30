@@ -1,5 +1,5 @@
 # www.brow.sh
-This is the GitHub repository for the main Browsh website. It contains links for the homepage, downloads, documentation and donation pages.
+This is the GitHub repository for the main Browsh website. It contains links for the homepage, downloads, documentation, and donation pages.
 
 It's currently a [Jekyll](https://jekyllrb.com/) site.
 
