@@ -6,7 +6,7 @@ main:
     url: /docs/introduction/
   - title: "Donate"
     url: /donate/
-  - title: "Github"
+  - title: "GitHub"
     url: https://github.com/browsh-org/browsh
 
 docs:

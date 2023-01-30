@@ -36,7 +36,7 @@ or better yet [Mosh](https://mosh.org/) (though note that self-compiling Mosh is
 
 **It doesn't work on Windows**    
 This is a known bug, it's not been a top priority because of the main usecase described
-in the previous FAQ answer here. Please follow this [Github issue](https://github.com/browsh-org/browsh/issues/32) for updates.
+in the previous FAQ answer here. Please follow this [GitHub issue](https://github.com/browsh-org/browsh/issues/32) for updates.
 
 **It works but the graphics has long black lines in it**    
 Your terminal doesn't support true colour, see here for more details: [https://gist.github.com/XVilka/8346728](https://gist.github.com/XVilka/8346728)
