@@ -18,6 +18,6 @@ $ make
 $ make install
 ```
 
-Mosh needs to be installed both on your local machine and your remote server. Though note that the local Mosh client is available on Android ([JuiceSSH](https://play.google.com/store/apps/details?id=com.sonelli.juicessh), [Termux](https://play.google.com/store/apps/details?id=com.termux)), in the [Chrome Browser](https://chrome.google.com/webstore/detail/mosh/ooiklbnjmhbcgemelgfhaeaocllobloj) and iOS's [Blink Shell](https://itunes.apple.com/app/id1156707581).
+Mosh needs to be installed both on your local machine and your remote server. Though note that the local Mosh client is available on Android ([Wardterm](https://play.google.com/store/apps/details?id=com.wardterm.android), [Termux](https://play.google.com/store/apps/details?id=com.termux)), in the [Chrome Browser](https://chrome.google.com/webstore/detail/mosh/ooiklbnjmhbcgemelgfhaeaocllobloj) and iOS's [Blink Shell](https://itunes.apple.com/app/id1156707581).
 
 There is no special setup to run Browsh over Mosh, as long as you have them both installed on your remote server. Though note that Mosh does require port `60000` (and upwards if you'll be running more than one simultaneous session). Once logged in through Mosh you will be able to run `browsh` normally as if you were on your local command prompt.
